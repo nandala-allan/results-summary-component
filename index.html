@@ -9,6 +9,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 
 </head>
@@ -19,33 +22,52 @@
       <div class="component">
         <div class="results">
           <h1> Your Result</h1>
+
           <div id="result">
             <strong>76</strong>
             <small>of 100</small>
           </div>
-          <h2>Great</h2>
-          <p>You scored higher than 65% of the people who have taken these tests.</p>
+
+          <div id="result-content">
+            <h2>Great</h2>
+            <p>You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
         </div>
+
         <div class="summary">
           <h1> Summary</h1>
-          <div class="sammary-component reaction">
-            <p><span><img src="./assets/images/icon-reaction.svg" aria-hidden="true"></span>Reaction</p>
-            <p><span class="bold">80</span>/<span class="faint">100</span></p>
-          </div>
+          <div class="summary-components">
+            <div class="summary-component reaction">
+              <span class="details">
+                <img src="./assets/images/icon-reaction.svg" aria-hidden="true">
+                <p>Reaction</p>
+              </span>
+              <p><span class="bold">80 </span> <span class="faint"> / 100</span></p>
+            </div>
 
-          <div class="sammary-component memory">
-            <p><span><img src="./assets/images/icon-memory.svg" aria-hidden="true"></span>Memory</p>
-            <p><span class="bold">92 </span>/<span class="faint">100</span></p>
-          </div>
+            <div class="summary-component memory">
+              <span class="details">
+                <img src="./assets/images/icon-memory.svg" aria-hidden="true">
+                <p>Memory</p>
+              </span>
+              <p><span class="bold">92 </span> <span class="faint"> / 100</span></p>
+            </div>
 
-          <div class="sammary-component verbal">
-            <p><span><img src="./assets/images/icon-verbal.svg" aria-hidden="true"></span>Verbal</p>
-            <p><span class="bold">61</span>/<span class="faint">100</span></p>
-          </div>
+            <div class="summary-component verbal">
+              <span class="details">
+                <img src="./assets/images/icon-verbal.svg" aria-hidden="true">
+                <p>Verbal</p>
+              </span>
+              <p><span class="bold">61 </span> <span class="faint"> / 100</span></p>
+            </div>
 
-          <div class="sammary-component visual">
-            <p><span><img src="./assets/images/icon-visual.svg" aria-hidden="true"></span>Visual</p>
-            <p><span class="bold">72</span>/<span class="faint">100</span></p>
+            <div class="summary-component visual">
+              <span class="details">
+                <img src="./assets/images/icon-visual.svg" aria-hidden="true">
+                <p>Visual</p>
+              </span>
+              <p><span class="bold">72 </span> <span class="faint"> / 100</span></p>
+            </div>
           </div>
           <button>Continue</button>
         </div>
