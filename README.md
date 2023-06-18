@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/resultssummarycomponent-YVaw5XquBr](https://www.frontendmentor.io/solutions/resultssummarycomponent-YVaw5XquBr)
 - Live Site URL: [https://eloquent-moonbeam-8f271e.netlify.app](https://eloquent-moonbeam-8f271e.netlify.app)
 
 ## My process
